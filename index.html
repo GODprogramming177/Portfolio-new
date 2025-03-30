@@ -14,8 +14,18 @@
         <link rel="stylesheet" href="./packages/css/styles.css">
 
         <title>G Om Prasad Dora</title>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "8EMPrgQ5D51_KpUsC",
+      });
+   })();
+</script>
     </head>
-    <body oncontextmenu="return false">
+    <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
@@ -44,7 +54,7 @@
                         </li>
                         <li class="nav__item">
                             <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
+                                <i class="uil uil-scenery nav__icon"></i>Projects                              
                             </a>
                         </li>
                         <li class="nav__item">
@@ -129,7 +139,7 @@
                 <span class="section__subtitle">My Introduction</span>
 
                 <div class="about__container container grid">
-                    <img src="packages/images/IMG-20240916-WA0076[1].jpg" alt="" class="about__img">
+                    <img src="./packages/images/PIC.JPG" alt="" class="about__img">
                     <div class="about__data">
                         <p class="about__description">
                             A detail-oriented web developer with a strong foundation in front-end and back-end development technologies. I have hands-on experience with HTML, CSS, JavaScript, and frameworks like React, along with knowledge of back-end technologies such as Node.js, Express, and databases like MongoDB. Through academic projects and self-learning, I’ve developed functional, responsive websites and web applications.
@@ -150,7 +160,7 @@
                         </div>
 
                         <div class="about__buttons">
-                            <a download="" href="https://drive.google.com/file/d/1LYJF9Qw_R7QIcJjh-QYAADB9ntY0Onwh/view?usp=sharing" class="button button--flex">
+                            <a download="" href="https://drive.google.com/file/d/1Juck4XJ-PJOGUsuhgVnM-2pFKpdfuaX8/view?usp=sharing" class="button button--flex" target="_blank">
                                 Download CV<i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
@@ -166,55 +176,7 @@
                 <div class="skills__container container grid">
                     <div>
                          <!--==================== SKILL-1 ====================-->
-                        <!-- <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="uil uil-analytics skills__icon"></i>
-                               <div>
-                                   <h1 class="skills__title">Data Analyst</h1>
-                                   <span class="skills__subtitle">More than 2 years</span>
-                               </div>
-
-                               <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Python</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__python"></span>
-                                    </div>
-                                </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">Tableau</h3>
-                                       <span class="skills__number">70%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__tab"></span>
-                                   </div>
-                               </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">SQL</h3>
-                                       <span class="skills__number">50%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__sql"></span>
-                                   </div>
-                               </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">Google Suite</h3>
-                                       <span class="skills__number">70%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__google"></span>
-                                   </div>
-                               </div>
-                            </div>
-                        </div> -->
+                       
 
                         <!--==================== SKILLS 2 ====================-->
                         <div class="skills__content skills__close">
@@ -285,7 +247,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">MongoDB</h3>
-                                    <span class="skills__number">50%</span>
+                                    <span class="skills__number">60%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__js"></span>
@@ -335,8 +297,8 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__titles">
-                              <h3 class="skills__name">Figma</h3>
-                              <span class="skills__number">60%</span>
+                              <h3 class="skills__name">Canva</h3>
+                              <span class="skills__number">80%</span>
                             </div>
                             <div class="skills__bar">
                                <span class="skills__percentage skills__google"></span>
@@ -344,22 +306,22 @@
                         </div>
                            <div class="skills__data">
                                <div class="skills__titles">
-                                   <h3 class="skills__name">Canva</h3>
-                                   <span class="skills__number">80%</span>
+                                   <h3 class="skills__name">Figma</h3>
+                                   <span class="skills__number">60%</span>
                                </div>
                                <div class="skills__bar">
                                    <span class="skills__percentage skills__counter"></span>
                                </div>
                            </div>
                            <div class="skills__data">
-                                <div class="skills__titles">
-                                  <h3 class="skills__name">Google Cloud Platform(GCP)</h3>
-                                  <span class="skills__number">60%</span>
-                                </div>
-                                <div class="skills__bar">
-                                   <span class="skills__percentage skills__google"></span>
-                                </div>
+                            <div class="skills__titles">
+                                <h3 class="skills__name">GCP</h3>
+                                <span class="skills__number">70%</span>
                             </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__bank"></span>
+                            </div>
+                       </div>
                             <div class="skills__data">
                                <div class="skills__titles">
                                    <h3 class="skills__name">MS Office</h3>
@@ -369,10 +331,11 @@
                                    <span class="skills__percentage skills__office"></span>
                                </div>
                             </div>
+                            
                             <div class="skills__data">
                                 <div class="skills__titles">
                                   <h3 class="skills__name">Video Editing</h3>
-                                  <span class="skills__number">70%</span>
+                                  <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
                                    <span class="skills__percentage skills__google"></span>
@@ -486,7 +449,7 @@
                 <div class="qualification__data">
                     <div>
                         <h3 class="qualification__title">Protionix Technology,BBSR</h3>
-                        <span class="qualification__subtitle">Web Developer</span>
+                        <span class="qualification__subtitle">Software Developer</span>
                         <div class="qualification__calendar">
                            <i class="uil uil-calendar-alt"></i>
                            May 2024 - Present
@@ -509,7 +472,7 @@
    
                    <div>
                        <h3 class="qualification__title">IEEE NIST UNIVERSITY</h3>
-                       <span class="qualification__subtitle">Core Member</span>
+                       <span class="qualification__subtitle">Student Core Member</span>
                        <div class="qualification__calendar">
                           <i class="uil uil-calendar-alt"></i>
                           Sep 2023 - Present
@@ -521,7 +484,7 @@
                <div class="qualification__data">
                    <div>
                        <h3 class="qualification__title">NIST Robotics Club(NRC)</h3>
-                       <span class="qualification__subtitle">Core Member</span>
+                       <span class="qualification__subtitle">Club Representative</span>
                        <div class="qualification__calendar">
                           <i class="uil uil-calendar-alt"></i>
                           Sep 2023 - Present
@@ -547,46 +510,7 @@
 
             <div class="services__container container grid">
         <!--==================== SERVICES 0 ====================-->  
-        <!-- <div class="services__content">
-            <div>
-                <i class="uil uil-analytics skills__icon"></i>
-                <h3 class="services__title">Data Analyst<br></h3>
-            </div>
-            <span class="button button--flex button--small button--link services__button">
-                View more
-                <i class="uil uil-arrow-right button__icon"></i>
-            </span>
-
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <h4 class="services__modal-title">Data Analyst <br></h4>
-                    <i class="uil uil-times services__modal-close"></i>
-
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I analize data systems.</p>
-                        </li>
-
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Automating information retrieval.</p>
-                        </li>
-
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Systematically applying statistical and logical techniques.</p>
-                        </li>
-
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Visualizing graphs, charts and preparing reports and dashboards.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>  
-         -->
+    
         <!--==================== SERVICES 1 ====================--> 
         <div class="services__content">
             <div>
@@ -688,22 +612,22 @@
                     <ul class="services__modal-services grid">
                         <li class="services__modal-service">
                             <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Coming Soon.......</p>
+                            <p>specialize in React Native development</p>
                         </li>
 
                         <li class="services__modal-service">
                             <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p></p>
+                            <p>Custom Mobile Solutions – Tailored to your business needs</p>
                         </li>
 
                         <li class="services__modal-service">
                             <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p></p>
+                            <p> Cross-Platform Efficiency – One codebase, two platforms</p>
                         </li>
 
                         <li class="services__modal-service">
                             <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p></p>
+                            <p>Affordable & Scalable – Cost-effective solutions for growth</p>
                         </li>
                     </ul>
                 </div>
@@ -717,20 +641,32 @@
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
 
-            <h2 class="section__title">Portfolio</h2>
+            <h2 class="section__title">Projects</h2>
             <span class="section__subtitle">Most recent works</span>
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
         <!--==================== PORTFOLIO 1 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./packages/images/nms.png" alt="" class="portfolio__img">
+
+            <div class="portfolio_">
+                <h3 class="portfolio__title">Musical Society Website</h3>
+                <p class="portfolio__description">The NMS website showcases the band's journey, featuring a gallery, upcoming events, member lists, alumni, and achievements.</p>
+                <a href="https://nmsband.vercel.app/" class="button button--flex button--small portfolio__button" target="_blank">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
         
             <div class="portfolio__content grid swiper-slide">
                 <img src="./packages/images/Mana Village.png" alt="" class="portfolio__img">
 
                 <div class="portfolio_">
                     <h3 class="portfolio__title">Mana Village</h3>
-                    <p class="portfolio__description">Village Tradition,culture,livelihood Showcase</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
+                    <p class="portfolio__description">Mana Village website showcases culture, history, tourism, traditions, events, and heritage.</p>
+                    <a href="https://mana-village-ganjam.vercel.app/" class="button button--flex button--small portfolio__button" target="_blank">
                         Demo
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
@@ -740,12 +676,12 @@
             <!--==================== PORTFOLIO 2 ====================-->
         
             <div class="portfolio__content grid swiper-slide">
-                <img src="./packages/images/Screenshot (124).png" alt="" class="portfolio__img">
+                <img src="./packages/images/robotics club.png" alt="" class="portfolio__img">
 
                 <div class="portfolio_">
-                    <h3 class="portfolio__title">Todo App using React</h3>
-                    <p class="portfolio__description">Easily add, edit, and organize tasks with due dates, priorities, and categories for better task management.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
+                    <h3 class="portfolio__title">Robotics Club Website</h3>
+                    <p class="portfolio__description">The NRC website highlights events, members, projects, research, achievements, and contact.</p>
+                    <a href="https://nistroboticsclub.vercel.app/" class="button button--flex button--small portfolio__button" target="_blank">
                         Demo
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
@@ -754,14 +690,16 @@
 
             <!--==================== PORTFOLIO 3 ====================-->
         
+           
+ 
             <div class="portfolio__content grid swiper-slide">
-                <img src="./packages/images/Netflix Clone.png" alt="" class="portfolio__img">
+                <img src="./packages/images/krushak.png" alt="" class="portfolio__img">
 
                 <div class="portfolio_">
-                    <h3 class="portfolio__title">web series app(Netflix Clone)</h3>
-                    <p class="portfolio__description">Access a vast collection of web series across multiple genres, languages, and categories, with new content added regularly.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
+                    <h3 class="portfolio__title">KRUSHAK</h3>
+                    <p class="portfolio__description">Krushak app supports farmers with weather updates, market rates, selling, buying, tips, and resources.</p>
+                    <a href="https://drive.google.com/file/d/10BIVPfS7Wv8BOp7Wg47P6ma066LwlipN/view?usp=sharing" class="button button--flex button--small portfolio__button" target="_blank">
+                        Details
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
@@ -773,7 +711,7 @@
                 <div class="portfolio_">
                     <h3 class="portfolio__title">And many more......</h3>
                     <p class="portfolio__description">Some of the projects are in github repo & others are hidden due to company terms.</p>
-                    <a href="https://github.com/GODprogramming177" class="button button--flex button--small portfolio__button">
+                    <a href="https://github.com/GODprogramming177" class="button button--flex button--small portfolio__button" target="_blank">
                         Github
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
@@ -941,30 +879,29 @@
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" id="name" name="name" required class="contact__input">
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" id="email" name="email" required class="contact__input">
                         </div>
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">Subject</label>
-                        <input type="text" class="contact__input">
+                        <input type="text" id="subject" name="subject" required class="contact__input">
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">Description</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="" id="Description" name="Description" required cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
-                            Send message
+                        <button onclick="sendMail()" class="button button--flex">Submit
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
             </div>
@@ -995,14 +932,14 @@
                 </ul>
 
                 <div class="footer__socials">
-                    <a href="https://www.facebook.com" target="_blank" class="footer__social">
-                        <i class="uil uil-facebook"></i>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" class="footer__social">
-                        <i class="uil uil-instagram"></i>
-                    </a>
                     <a href="https://x.com/OmPrasadDora" target="_blank" class="footer__social">
                         <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/g-om-prasad-dora-5a36481ba/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://github.com/GODprogramming177" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
                     </a>
                 </div>
             </div>
