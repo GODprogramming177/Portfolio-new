@@ -210,3 +210,14 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+function sendMail(){
+  let parms = {
+    name :document.getElementById("name").value,
+    email : document.getElementById("email").value,
+    subject : document.getElementById("subject").value,
+    Description : document.getElementById("Description").value,
+
+  }
+  emailjs.send (service_himkyvo,template_zj6goet,parms).then(alert("email sent!"))
+}
